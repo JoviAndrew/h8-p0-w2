@@ -14,7 +14,7 @@ ELSE
 
 3. 
 STORE jumlahPakaian to 20
-STORE pakaianCuci to 0
+STORE pakaianCuci to 1
 IF pakaianCuci == 20
 	DO cuci
 ELSE
@@ -22,7 +22,7 @@ ELSE
 
 4.
 STORE jumlahSiswa = 40
-STORE siswaDiPeriksa = 0
+STORE siswaDiPeriksa = 1
 WHILE siswaDiPeriksa <= 40
 	DO periksaKuku
 	IF aman == true
