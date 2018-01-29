@@ -2,7 +2,7 @@
 STORE 600 to m
 STORE 2 to a
 CALCULATE m multiply a
-STORE calculate result to F
+STORE calculation result to F
 
 2. 
 STORE inputJumlahHari to tahun
