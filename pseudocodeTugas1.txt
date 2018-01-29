@@ -1,0 +1,32 @@
+1. 
+STORE 600 to m
+STORE 2 to a
+CALCULATE m multiply a
+STORE calculate result to F
+
+2. 
+STORE inputJumlahHari to tahun
+IF tahun % 4 == 0
+	ELSE IF tahun % 100 == 0 AND tahun % 400 == 0
+		DO tipeTahun to "Kabisat"
+ELSE
+	DO tipeTahun to "Bukan Kabisat"
+
+3. 
+STORE jumlahPakaian to 20
+STORE pakaianCuci to 0
+IF pakaianCuci == 20
+	DO cuci
+ELSE
+	DO pakaianCuci++
+
+4.
+STORE jumlahSiswa = 40
+STORE siswaDiPeriksa = 0
+WHILE siswaDiPeriksa <= 40
+	DO periksaKuku
+	IF aman == true
+		DO puji
+	ELSE
+		DO hukum
+	
