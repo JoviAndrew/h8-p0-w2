@@ -7,10 +7,11 @@ STORE calculation result to F
 2. 
 STORE inputJumlahHari to tahun
 IF tahun % 4 == 0
-	ELSE IF tahun % 100 == 0 AND tahun % 400 == 0
-		DO tipeTahun to "Kabisat"
+	STORE tipeTahun to 'Kabisat'
+ELSE IF tahun % 100 == 0 AND tahun % 400 == 0
+	STORE tipeTahun to "Kabisat"
 ELSE
-	DO tipeTahun to "Bukan Kabisat"
+	STORE tipeTahun to "Bukan Kabisat"
 
 3. 
 STORE jumlahPakaian to 20
@@ -25,8 +26,8 @@ STORE jumlahSiswa = 40
 STORE siswaDiPeriksa = 1
 WHILE siswaDiPeriksa <= 40
 	DO periksaKuku
-	IF aman == true
-		DO puji
-	ELSE
-		DO hukum
-	
+		IF aman == true
+			DO puji
+		ELSE
+			DO hukum
+	siswaDiPeriksa++
